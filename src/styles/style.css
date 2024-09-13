@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    background:url('/img/Novo\ Projeto\ \(4\).png'), url('/img/fc36fa7816fe1847b3dcbc352f227a0f.jpg');
+   
+    
+}
+#header{
+    height: 95vh;
+   
+  
+}
+#header nav{
+    background-color: #00000094;
+    box-shadow: 1px 1px 20px black;
+    
+}
+
+
+
+.nav-link{
+    color: white;
+    font-size: 1em;
+    margin-right: 30px;
+    font-weight: 400;
+}
+
+
+#ke{
+    
+    background: -webkit-linear-gradient(#8ca579, #3f4b37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 8em;
+    text-shadow: 1px 1px 3px ;
+    font-weight: 300;
+    font-family: "IBM Plex Mono", monospace;
+    
+}
+.fa-solid{
+    color: white;
+}
+#pa{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    color: #0d3501;
+    text-shadow: 1px 1px 3px black;
+    font-size: 3em;
+    
+}
+
+
+
+
+
+
+
+
+/*main*/
+
+
+main{
+    height: 95vh;
+    background-color: white;
+   
+}
+
+#row{
+  display: flex;
+  
+}
+#sobremim{
+    visibility: hidden;
+    margin-top: 110px;
+}
+#sobremim h1{
+    font-size: 7em;
+}
+#sobremim p{
+    font-size: 2.0em;
+}
+#img img{
+    width: 1050px;
+    
+}
+#img{
+    overflow-x: hidden;
+    bottom: 110px;
+    visibility: hidden;
+}
+/*fim main*/
+
+/*serviços*/
+
+
+#servico{
+    
+
+   
+}
+#nsei{
+    
+    height: 65vh;
+    margin-bottom: 80px;
+    
+}
+
+
+.text-center h1{
+    color: white;
+    font-size: 3em;
+    margin-top: 40px;
+}
+
+.cards{
+    
+    transition: all 0.2s ease;
+    cursor: pointer;
+    
+
+  }
+    
+
+
+.cards:hover{
+
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+}
+
+.cad{
+    margin-bottom: 10%;
+}
+
+
+
+
+
+
+
+/* footer */
+
+footer{
+    background-color: white;
+    padding: 10px 0px;
+    margin-top: 200px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.entrem h1{
+    color: #0d3501;
+    margin: 50px;
+}
+
+#butt {
+  
+  text-align: center;
+}
+#button {
+  
+  height: 60px;
+  text-align: center;
+  width: 250px;
+  border-radius:30px;
+  background: white;
+  border: 2px solid green;
+  color: #0d3501;
+  letter-spacing:1px;
+  text-shadow:0;
+  font-size:2em;
+    font-weight:bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 2px 2px 3px black;
+  position: relative;
+  animation: animar 3s linear infinite;
+  overflow: hidden;
+  margin-bottom: 20px;
+  
+}
+.button2{
+    
+  height: 60px;
+  text-align: center;
+  width: 60px;
+  border-radius:30px;
+  background: white;
+  border: 2px solid green;
+  color: #0d3501;
+  letter-spacing:1px;
+  text-shadow:0;
+  font-size:2em;
+    font-weight:bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 2px 2px 3px black;
+  
+}
+
+
+@keyframes animar {
+    0%{
+        transform: scale(1);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+  #button:hover {
+    color:white;
+    background: green;
+  }
+  #button:active {
+    
+    letter-spacing: 2px ;
+  }
+  
+  .button2:hover {
+    color:white;
+    background: rgb(0, 44, 0);
+  }
+  .button2:active {
+    
+    letter-spacing: 2px ;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES*/
+
+/*MEDIA MAX 1300*/
+
+@media only screen and (max-width: 1300px) and (min-width: 1171px) {
+   
+main{
+    height: 90vh;
+    background-color: white;
+}
+
+#section{
+    
+
+}
+#sobremim{
+    margin-top: 25px;
+}
+#sobremim h1{
+    font-size: 6em;
+}
+#sobremim p{
+    font-size: 1.7em;
+}
+#img img{
+    width: 800px;
+    
+}
+#img{
+    overflow-x: hidden;
+    bottom: 110px;
+}
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA MAX 1170*/
+
+
+@media (max-width: 1170px) {
+   #ke{
+    font-size: 5em;
+   }
+   #pa{
+    font-size: 2.3em;
+   }
+
+
+
+   /* main*/ 
+   #sobremim{
+    margin-top: 0px;
+    font-size: 4em;
+}
+main{
+   height: 100%; 
+}
+
+
+#section{
+   
+    display: flex;
+    align-items: center;
+    
+}
+#img{
+    display: none;
+}
+#sobremim h1{
+    font-size: 1em;
+}
+#sobremim p{
+    font-size: 0.4em;
+}
+
+/*servicos*/
+
+#nsei{
+    height: 100%;
+}
+
+footer{
+    height: 100%;
+}
+
+}
+
