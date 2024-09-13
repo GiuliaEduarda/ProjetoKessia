@@ -15,13 +15,14 @@ revelar.reveal('#img2', {
     origin: 'right',
     duration: 2000,
     distance: '20%',
-    delay: 500
+    
 })
 revelar.reveal('#projetos', {
     
     duration: 2000,
     distance: '20%'
 })
+
 revelar.reveal('#projetos', {
     
     duration: 2000,
