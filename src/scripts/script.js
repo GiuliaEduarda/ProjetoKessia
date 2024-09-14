@@ -20,10 +20,10 @@ revelar.reveal('#img2', {
 revelar.reveal('#projetos', {
     
     duration: 2000,
-    distance: '20%'
+    distance: '10%'
 })
 
-revelar.reveal('#projetos', {
+revelar.reveal('.cards', {
     
     duration: 2000,
     distance: '20%'
